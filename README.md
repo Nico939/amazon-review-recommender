@@ -65,7 +65,7 @@ Notebooks were run on a Dataproc cluster with the data in HDFS; outputs are kept
 
 ## My contributions
 
-- Built the **ALS** model with Spark MLlib: reviewer-product matrix factorisation, latent factor and regularisation settings
+- Co-developed the **ALS** model with Spark MLlib: reviewer-product matrix factorisation, latent factor and regularisation settings
 - Co-developed the **Sentiment-Feature** model: TF-IDF feature extraction per reviewer, VADER sentiment on the words around each feature
 - Scaled the models with Hadoop and Spark on Google Cloud Dataproc
 
