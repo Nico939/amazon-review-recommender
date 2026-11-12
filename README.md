@@ -63,8 +63,15 @@ Takeaways:
 
 Notebooks were run on a Dataproc cluster with the data in HDFS; outputs are kept so results can be read without rerunning.
 
+## My contributions
+
+- Built the **Baseline Rating** model in PySpark
+- Designed and built the **Similarity-Rating** model: Word2Vec training on review text, per-rating embedding aggregation, cosine similarity prediction
+- Co-developed the **Sentiment-Feature** model (TF-IDF feature extraction, VADER sentiment)
+- Scaled the models with Hadoop and Spark on Google Cloud Dataproc
+
 ## Team and credits
 
-Group project by three LSE MSc students (Group 19). All members contributed to scaling the models with Hadoop and Spark on Google Cloud. Original course repository: `lse-st446/project-2023-group-19` (private).
+Group project with two LSE MSc classmates (Group 19). All members contributed to scaling the models on Google Cloud. Original course repository: `lse-st446/project-2023-group-19` (private).
 
 Dataset: Jianmo Ni, Jiacheng Li and Julian McAuley, *Justifying recommendations using distantly-labeled reviews and fine-grained aspects*, EMNLP 2019.
