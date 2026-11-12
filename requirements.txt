@@ -1,0 +1,7 @@
+pyspark
+nltk
+pandas
+numpy
+matplotlib
+nbformat
+jupyterlab
